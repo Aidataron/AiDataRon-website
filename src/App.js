@@ -29,6 +29,7 @@ function App() {
             render={(routeProps) => <Privacy />}
           />
           <Route exact path="/about" render={(routeProps) => <About />} />
+          <Route render={() => <Redirect to="/" />} />
         </Switch>
         {/* <Footer /> */}
       </Router>
