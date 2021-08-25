@@ -1,23 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
+import Home from "./Pages/Home";
+import Privacy from "./Pages/Privacy";
+import About from "./Pages/About";
+import Navbar from "./Components/Navbar";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Navbar />
+        <ToastContainer
+          style={{
+            width: "400px",
+            textAlign: "center",
+            fontSize: "1.3em",
+          }}
+        />
+        <Switch>
+          <Route exact path="/" render={(routeProps) => <Home />} />
+          <Route
+            exact
+            path="/privacypolicy"
+            render={(routeProps) => <Privacy />}
+          />
+          <Route exact path="/about" render={(routeProps) => <About />} />
+        </Switch>
+        {/* <Footer /> */}
+      </Router>
     </div>
   );
 }

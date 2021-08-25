@@ -1,0 +1,26 @@
+.card-container {
+  position: relative;
+}
+
+.card-bar {
+  position: absolute;
+  bottom: 5%;
+  width: 85%;
+  height: 65px;
+  background-color: rgba(67, 206, 162, 1);
+  border-radius: 12px;
+  left: 8%;
+  color: white;
+}
+
+.card-bar-span {
+  font-size: 11px;
+}
+
+/* .card-bar-icon {
+  background-color: rgba(67, 206, 162, 0.);
+  border-radius: 12px;
+  border-color: #43cea2;
+  transition: 0.3s;
+  height: 12%;
+} */

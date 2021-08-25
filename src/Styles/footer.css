@@ -1,0 +1,26 @@
+footer a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+.follow {
+  font-size: 25px;
+}
+.follow a {
+  margin-left: 10px;
+}
+.fa-facebook:hover {
+  color: #0155c8;
+}
+.fa-twitter:hover {
+  color: #00acee;
+}
+.fa-instagram:hover {
+  color: #cc006c;
+}
+.fa-whatsapp:hover {
+  color: #25d366;
+}
+
+.fa-linkedin:hover {
+  color: #0e76a8;
+}

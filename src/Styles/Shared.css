@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,300i,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Montserrat:wght@500;600;700;800&display=swap");
+
+:root {
+  --bodyfont: "Oswald", sans-serif;
+  --bodyfont2: "ZCOOL XiaoWei", serif;
+  --devfont: "Montserrat", sans-serif;
+  --primary-color: rgba(13, 110, 139, 0.75);
+  --overlay-color: rgba(24, 39, 51, 0.85);
+  --theme-color: linear-gradient(to right, #43cea2, #185a9d);
+  --menu-speed: 0.75s;
+}
+
+.navu {
+  /* background-color: rgba(67, 206, 162); */
+}
+
+.main {
+  background-color: rgba(67, 206, 162, 0.7);
+}
+
+.custom-shape-divider-bottom-1629721065 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1629721065 svg {
+  position: relative;
+  display: block;
+  width: calc(116% + 1.3px);
+  height: 149px;
+}
+
+.custom-shape-divider-bottom-1629721065 .shape-fill {
+  fill: #ffffff;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-bottom-1629721065 svg {
+    width: calc(120% + 1.3px);
+    height: 89px;
+  }
+}
+
+.btn-custom {
+  background: rgba(24, 90, 157, 0.7);
+  /* border: 1px solid white; */
+  color: #fff;
+  padding: 6px;
+  shadow: none;
+  border: none;
+  border-radius: 6px;
+  /* width: "150px"; */
+}
+
+.card1 {
+  color: black;
+  background-color: white;
+  transition: 0.3s;
+}
+
+.card1 h5 {
+  color: rgba(67, 206, 162, 0.7);
+  transition: 0.3s;
+}
+
+.card1:hover {
+  color: white;
+  background-color: rgba(67, 206, 162, 0.7);
+  border-radius: 12px;
+  border-color: #43cea2;
+}
+
+.card1:hover h5 {
+  color: white;
+}
+
+.card1:hover .card1-icon {
+  color: white;
+  background-color: rgba(67, 206, 162, 1);
+}
+
+.card1-icon {
+  color: #43cea2;
+  background-color: rgba(67, 206, 162, 0.3);
+  border-radius: 12px;
+  border-color: #43cea2;
+  transition: 0.3s;
+}
+
+.card2 {
+  color: black;
+  background-color: white;
+  transition: 0.3s;
+}
+
+.card2 h5 {
+  color: #f87e7c;
+  transition: 0.3s;
+}
+
+.card2:hover {
+  color: white;
+  background-color: rgba(248, 126, 124, 0.7);
+  border-radius: 12px;
+  border-color: #43cea2;
+}
+
+.card2:hover h5 {
+  color: white;
+}
+
+.card2:hover .card2-icon {
+  color: white;
+  background-color: rgba(248, 126, 124, 1);
+}
+
+.card2-icon {
+  color: rgba(248, 126, 124, 1);
+  background-color: rgba(248, 126, 124, 0.3);
+  border-radius: 12px;
+  border-color: #43cea2;
+  transition: 0.3s;
+}
+
+.card3 {
+  color: black;
+  background-color: white;
+  transition: 0.3s;
+}
+
+.card3 h5 {
+  color: #9a91cb;
+  transition: 0.3s;
+}
+
+.card3:hover {
+  color: white;
+  background-color: rgba(154, 145, 203, 0.7);
+  border-radius: 12px;
+  border-color: #43cea2;
+}
+
+.card3:hover h5 {
+  color: white;
+}
+
+.card3:hover .card3-icon {
+  color: white;
+  background-color: rgba(154, 145, 203, 1);
+}
+
+.card3-icon {
+  color: rgba(154, 145, 203, 1);
+  background-color: rgba(154, 145, 203, 0.3);
+  border-radius: 12px;
+  border-color: #43cea2;
+  transition: 0.3s;
+}
+
+.card4 {
+  color: black;
+  background-color: white;
+  transition: 0.3s;
+}
+
+.card4 h5 {
+  color: #185a9d;
+  transition: 0.3s;
+}
+
+.card4:hover {
+  color: white;
+  background-color: rgba(24, 90, 157, 0.6);
+  border-radius: 12px;
+  border-color: #43cea2;
+}
+
+.card4:hover h5 {
+  color: white;
+}
+
+.card4:hover .card4-icon {
+  color: white;
+  background-color: rgba(24, 90, 157, 1);
+}
+
+.card4-icon {
+  color: rgba(24, 90, 157, 1);
+  background-color: rgba(24, 90, 157, 0.3);
+  border-radius: 12px;
+  border-color: #43cea2;
+  transition: 0.3s;
+}
+
+.aboutus-points {
+  color: #43cea2;
+  background-color: rgba(67, 206, 162, 0.3);
+  border-radius: 12px;
+  border-color: #43cea2;
+  transition: 0.3s;
+}
+
+.jumbotron {
+  background-image: url("../Assets/jumboback.jpg");
+  background-position: right;
+  color: "white";
+  /* height: "250px"; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.spacer {
+  aspect-ratio: 960/400;
+  width: "100%";
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.layer1 {
+  background-image: url("../SVG/formback.svg");
+}
+
+.footer-spacer {
+  aspect-ratio: 960/300;
+  width: "100%";
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.footer-layer {
+  background-image: url("../SVG/footerback.svg");
+}
+
+.footer-wave-parent {
+  position: relative;
+}
+
+.custom-shape-divider-top-1629723394 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1629723394 svg {
+  position: relative;
+  display: block;
+  width: calc(139% + 1.3px);
+  height: 63px;
+}
+
+.custom-shape-divider-top-1629723394 .shape-fill {
+  fill: #ffffff;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-top-1629723394 svg {
+    width: calc(100% + 1.3px);
+    height: 52px;
+  }
+}
