@@ -57,7 +57,7 @@ const Navbar = () => {
               </li>
               <NavLink
                 style={{ textDecoration: "none", color: "white" }}
-                class="nav-link"
+                // class="nav-link"
                 to="/about"
               >
                 <li class="nav-item active nav-link">

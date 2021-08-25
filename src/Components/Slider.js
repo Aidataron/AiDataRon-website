@@ -10,7 +10,7 @@ import p6 from "../Assets/portfolio/libartus.PNG";
 import p7 from "../Assets/portfolio/gold.PNG";
 import p8 from "../Assets/portfolio/nation.PNG";
 import p9 from "../Assets/portfolio/adagency.PNG";
-import p10 from "../Assets/p10.jpg";
+// import p10 from "../Assets/p10.jpg";
 import "../Styles/Slider.css";
 import Card from "./Card.js";
 
