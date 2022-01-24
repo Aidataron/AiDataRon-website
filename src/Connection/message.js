@@ -1,6 +1,7 @@
 import axios from "axios";
 // let url = "http://localhost:3001";
-let url = "https://aidataronbackend.herokuapp.com";
+// let url = "https://aidataronbackend.herokuapp.com";
+let url = "https://aidataron-backend.herokuapp.com/";
 
 const submitMessage = async (data) => {
   console.log(data);
